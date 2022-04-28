@@ -1,4 +1,3 @@
-copier-flexlate-dev-semantic-release
 # Copier Flexlate Dev Semantic Release
 
 Copier template to generate a Copier template using Flexlate Development Tools and Semantic Release

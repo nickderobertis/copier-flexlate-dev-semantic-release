@@ -19,7 +19,7 @@
         "full_name": "Copier Flexlate Dev Semantic Release",
         "repo_username": "nickderobertis",
         "short_description": "Copier template to generate a Copier template using Flexlate Development Tools and Semantic Release",
-        "package_author": "Nick DeRobertis",
+        "author": "Nick DeRobertis",
         "author_email": "derobertis.nick@gmail.com",
         "main_branch_name": "main"
       },

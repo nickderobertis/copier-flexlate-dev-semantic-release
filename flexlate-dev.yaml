@@ -5,7 +5,7 @@ data:
       author_email: derobertis.nick@gmail.com
       full_name: Flexlate Dev Semantic Release Example
       main_branch_name: main
-      package_author: Nick DeRobertis
+      author: Nick DeRobertis
       repo_name: flexlate-dev-semantic-release-example
       repo_username: nickderobertis
       short_description: A short description

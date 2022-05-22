@@ -2,6 +2,8 @@
 
 Copier template to generate a Copier template using Flexlate Development Tools and Semantic Release
 
+Automatically publishes example repositories.
+
 ## Development Status
 
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release) for versioning.

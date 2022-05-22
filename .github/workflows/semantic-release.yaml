@@ -2,8 +2,7 @@ name: Semantic Release
 on:
   push:
     branches:
-      - {{ main_branch_name }}
-{%- raw %}
+      - main
       - alpha
       - beta
       - "*.*.*"
@@ -20,4 +19,3 @@ jobs:
         uses: cycjimmy/semantic-release-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.gh_token }}
-{% endraw %}

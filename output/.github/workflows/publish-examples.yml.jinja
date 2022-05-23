@@ -1,5 +1,14 @@
 name: Publish Example Repositories
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - {{ main_branch_name }}
+{%- raw %}
+      - alpha
+      - beta
+      - "*.*.*"
+      - "*.*"
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -36,3 +45,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           REPO_NAME: ${{ steps.repo_name.outputs.repo_name }}
+{%- endraw %}

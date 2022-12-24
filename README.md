@@ -4,6 +4,16 @@ Copier template to generate a Copier template using Flexlate Development Tools a
 
 Automatically publishes example repositories.
 
+## Initial Setup
+
+First generate the Flexlate Development Tools config file by serving and saving:
+
+```
+dfxt serve -s
+```
+
+Then stop it and adjust the config file as needed.
+
 ## Development Status
 
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release) for versioning.
